@@ -136,6 +136,38 @@ footer {
   border: 2px solid #e63946;
 }
 
+/* === Candidate Name Link === */
+a.btn-link.mx-2.my-1 {
+  font-size: 2rem;           /* Bigger font size */
+  font-weight: 700;          /* Bold and strong */
+  letter-spacing: 1px;
+  text-transform: uppercase; /* Makes it more commanding */
+  color: #000;
+  border: 3px solid #000;
+  border-radius: 40px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+a.btn-link.mx-2.my-1:hover {
+  background-color: #e63946;
+  color: #fff;
+  border-color: #e63946;
+  transform: scale(1.05);    /* Adds a cute bounce */
+}
+
+/* === Campaign Quote === */
+p em {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #e63946;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px #000;
+}
+
 /* === Cute Subtle Animation === */
 section {
   opacity: 0;
@@ -173,5 +205,13 @@ section.visible {
   .btn-link {
     font-size: 0.9rem;
     padding: 0.3rem 0.8rem;
+  }
+
+  a.btn-link.mx-2.my-1 {
+    font-size: 1.5rem;
+  }
+
+  p em {
+    font-size: 1.4rem;
   }
 }
