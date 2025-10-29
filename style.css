@@ -20,7 +20,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #955306!important; /* Dark grey for navbar */
+  background-color: #000000!important; /* Dark grey for navbar */
   color: black;
   position: sticky;
   top: 0;
@@ -36,22 +36,22 @@ body {
 
 /* Container */
 .container {
-  background-color: #ffffff; /* White background for container */
+  background-color: #000000; /* White background for container */
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 6px 20px #f2cb83;
+  box-shadow: 0 6px 20px #AB9A9A;
   max-width: 95%;
 }
 
 /* Headings */
 h1 {
-  color: #9b3234; /* Dark grey */
+  color: #AB0E0E; /* Dark grey */
   font-weight: 700;
   font-family: "Oswald", sans-serif;
 }
 
 h3 {
-  color: #9b3234; /* Grey */
+  color: #AB0E0E; /* Grey */
   margin-top: 2rem;
   font-weight: 600;
   font-family: "Oswald", sans-serif;
@@ -60,14 +60,14 @@ h3 {
 /* Emphasized Text */
 em {
   font-style: italic;
-  color: #9b3234; /* Grey for emphasized text */
+  color: #AB0E0E; /* Grey for emphasized text */
   font-size: 1.1rem;
 }
 
 /* Paragraphs */
 p {
   font-size: 1.05rem;
-  color: #495057; /* Slightly lighter dark grey */
+  color: #FFFFFF; /* Slightly lighter dark grey */
 }
 
 /* Horizontal Rule */
@@ -113,7 +113,7 @@ video {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  background-color: #f2cb83; /* Light gold hover */
+  background-color: #AB0E0E; /* Light gold hover */
   color: #955306; /* Dark text on hover */
 }
 
