@@ -136,6 +136,18 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   </script>
+  
+<script>
+  const sections = document.querySelectorAll("section");
+  const reveal = () => {
+    sections.forEach(sec => {
+      const top = sec.getBoundingClientRect().top;
+      if (top < window.innerHeight - 100) sec.classList.add("visible");
+    });
+  };
+  window.addEventListener("scroll", reveal);
+  reveal();
+</script>
 
 </body>
 
